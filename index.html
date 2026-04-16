@@ -612,12 +612,52 @@
 
         /* Mobile responsive */
         @media (max-width: 768px) {
+            .hero {
+                padding-top: 120px;
+            }
+            
             .hero h1 {
-                font-size: 3rem;
+                font-size: 2.5rem;
+                margin-bottom: 1.5rem;
             }
             
             .hero .handwritten {
+                font-size: 1.8rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            .hero .details {
+                font-size: 1rem;
+                margin-bottom: 2rem;
+            }
+            
+            .countdown-section {
+                margin: 2rem auto;
+                padding: 2rem 1rem;
+            }
+            
+            .countdown-title {
                 font-size: 2rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            .countdown-display {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .countdown-item {
+                min-width: auto;
+                width: 100%;
+                padding: 1rem;
+            }
+            
+            .countdown-number {
+                font-size: 2rem;
+            }
+            
+            .countdown-label {
+                font-size: 0.7rem;
             }
             
             .about-grid,
@@ -626,9 +666,17 @@
                 gap: 3rem;
             }
             
+            .nav-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0.5rem 0;
+            }
+            
             .nav-container a {
                 display: block;
-                margin: 0.5rem 0;
+                margin: 0.3rem 0;
+                font-size: 0.9rem;
             }
             
             .person-avatar {
@@ -642,16 +690,6 @@
             
             h2 {
                 font-size: 2.5rem;
-            }
-            
-            .countdown-display {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .countdown-item {
-                min-width: auto;
-                width: 100%;
             }
         }
     </style>
